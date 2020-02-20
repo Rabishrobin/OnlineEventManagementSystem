@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEventManagementSystem.MVC", "OnlineEventManagementSystem.MVC\OnlineEventManagementSystem.MVC.csproj", "{2E452A89-F076-4C1B-B3D6-396AC6A6EADD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEventManagementSystem", "OnlineEventManagementSystem.MVC\OnlineEventManagementSystem.csproj", "{2E452A89-F076-4C1B-B3D6-396AC6A6EADD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEventManagementSystem.DAL", "OnlineEventManagementSystem.DAL\OnlineEventManagementSystem.DAL.csproj", "{E6C9A34E-7C09-4E50-9F4C-7E266E879A4F}"
 EndProject

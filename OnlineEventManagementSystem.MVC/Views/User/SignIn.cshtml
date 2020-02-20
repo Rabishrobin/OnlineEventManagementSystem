@@ -9,13 +9,15 @@
 
 @using (Html.BeginForm("SignIn", "User", FormMethod.Post))
 {
+    @Html.ValidationSummary(true, "");
     <table cellpadding="10" align="center">
         <tr>
             <td>
                 @Html.Label("Username")
             </td>
             <td>
-                @Html.TextBoxFor(Model => Model.UserMailId)
+                @Html.TextBoxFor(Model => Model.UserMailId)<br />
+                @Html.ValidationMessageFor(model => model.UserMailId, "Enter a valid mail ID")
             </td>
         </tr>
         <tr>
@@ -23,7 +25,8 @@
                 @Html.Label("Password")
             </td>
             <td>
-                @Html.PasswordFor(Model => Model.Password)
+                @Html.PasswordFor(Model => Model.UserPassword)
+                @Html.ValidationMessageFor(model => model.UserPassword, "Enter a valid password")
             </td>
         </tr>
         <tr>

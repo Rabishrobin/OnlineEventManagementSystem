@@ -2,7 +2,7 @@
 using OnlineEventManagementSystem.DAL;
 using OnlineEventManagementSystem.Entity;
 
-namespace EventManagement.MVC.Controllers
+namespace OnlineEventManagementSystem.Controllers
 {
     public class UserController : Controller
     {
